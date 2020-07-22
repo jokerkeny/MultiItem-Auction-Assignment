@@ -2,7 +2,7 @@
  * @Author: jokerkeny
  * @Date: 2020-07-21 04:24:26
  * @LastEditors: jokerkeny
- * @LastEditTime: 2020-07-22 01:22:52
+ * @LastEditTime: 2020-07-22 02:11:57
  * @Description: file content
 --> 
 合租一个月租6000元的三室公寓，谁住主卧谁住次卧谁住客房？每人该付多少钱？  
@@ -123,5 +123,5 @@ step 3:在colab里打开程序，输入报价并运行。当然也可以直接下载auction.py或auction.
 如果没法使用google服务，可用加密的excel代替，随后公开密码。
 如果在现实中当面报价，Step 1 & 2可直接用纸笔封闭报价代替。  
 
-> Written with [StackEdit](https://stackedit.io/).
+> Written with [StackEdit](https://stackedit.io/).  
 > Convert to github markdown by [readme2tex](https://github.com/leegao/readme2tex)

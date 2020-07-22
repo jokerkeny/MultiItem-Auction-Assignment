@@ -2,7 +2,7 @@
  * @Author: jokerkeny
  * @Date: 2020-07-21 04:24:26
  * @LastEditors: jokerkeny
- * @LastEditTime: 2020-07-22 02:11:57
+ * @LastEditTime: 2020-07-22 02:27:08
  * @Description: file content
 --> 
 合租一个月租6000元的三室公寓，谁住主卧谁住次卧谁住客房？每人该付多少钱？  
@@ -117,7 +117,7 @@ step 1:每个人准备好自己的报价写进自己私人的google sheet
 
 step 2:过3分钟，大家一起公开自己的报价sheet的只读sharelink。（由于google sheet的修改记录是可见的，可验证3分钟内不存在报价变动。）
 
-step 3:在colab里打开程序，输入报价并运行。当然也可以直接下载auction.py或auction.ipynb在本地运行。
+step 3:在google colab里打开本repo的auction.ipynb（也可直接点击[https://colab.research.google.com/github/jokerkeny/MultiItem-Auction-Assignment/blob/master/auction.ipynb](https://colab.research.google.com/github/jokerkeny/MultiItem-Auction-Assignment/blob/master/auction.ipynb)），输入报价并运行。当然也可以直接下载auction.py或auction.ipynb在本地运行。
 
 其中step1 & 2是用于可靠的封闭报价的，sharelink得一起公开，否则存在事先准备好多个googlesheet的作弊漏洞。  
 如果没法使用google服务，可用加密的excel代替，随后公开密码。

@@ -1,103 +1,117 @@
-*å‘çŽ°github markdownä¸æ¸²æŸ“æ•°å­¦å…¬å¼
-è¯»è€…å¯ä»¥ç›´æŽ¥é˜…è¯»æ¸²æŸ“å¥½çš„readme.pdf
-ä¹Ÿå¯ä»¥åœ¨chromeé‡Œå®‰è£…ä¸€ä¸ªmarkdownæ¸²æŸ“æ’ä»¶ï¼Œå¦‚æˆ‘è‡ªå·±ç”¨çš„https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl ï¼Œå†æ‰“å¼€readme.mdçš„rawæ–‡ä»¶https://raw.githubusercontent.com/jokerkeny/MultiItem-Auction-Assignment/master/README.md*
-# å¤šç‰©å“æ‹å–ï¼ˆæœ€ä¼˜åˆ†é…ç®—æ³•ï¼‰
-ç›®çš„æ˜¯æŠŠæ€»ä»·ä¸º$P'$çš„nä¸ªç‰©å“æ›´æœ‰æ•ˆçš„åˆ†é…ç»™nä¸ªäººï¼Œå®žçŽ°æœ€å¤§æ•ˆç”¨
-## å°é—­æŠ¥ä»·
-nä¸ªç«žæ‹è€…å°é—­æŠ¥ä»·ï¼Œç»™å‡ºè‡ªå·±å¯¹nä¸ªç‰©å“çš„æŠ¥ä»·ï¼Œåæ˜ nä¸ªç‰©å“å¯¹è‡ªå·±çš„æ•ˆç”¨ï¼Œå½¢æˆæŠ¥ä»·çŸ©é˜µ$S_ij$
-$$
-\begin{bmatrix}
-S_{11} & S_{12} & \cdots & S_{1n}\\
-S_{21} & S_{22} & \cdots & S_{2n}\\
-\vdots & \vdots & \ddots & \vdots\\
-S_{n1} & S_{n2} & \cdots & S_{nn}
-\end{bmatrix}
-$$
+<!--
+ * @Author: jokerkeny
+ * @Date: 2020-07-21 04:24:26
+ * @LastEditors: jokerkeny
+ * @LastEditTime: 2020-07-22 01:22:52
+ * @Description: file content
+--> 
+ºÏ×âÒ»¸öÔÂ×â6000ÔªµÄÈýÊÒ¹«Ô¢£¬Ë­×¡Ö÷ÎÔË­×¡´ÎÎÔË­×¡¿Í·¿£¿Ã¿ÈË¸Ã¸¶¶àÉÙÇ®£¿  
+Ò»·Ý¼Û¸ñ100ÔªµÄÊÙË¾Ì×²ÍÀï£¬ÓÐÒ»¸ö½ðÇ¹Óãº£µ¨ÊÖ¾íºÍÒ»¸öÐ·°ôÊÖ¾í£¬Á½ÈË¸÷Ñ¡Ò»¸ö¸ÃÈçºÎ·Ö£¿  
+double date×¡¾Æµê£¬¶¼Ïë×¡±ê¼ä£¬µ«¾ÆµêÖ»Ê£Ò»Ì×\$200µÄ±ê¼äºÍÒ»Ì×\$600ºÀ»ªË«ÈË¼ä£¬ÕâÁ½¶ÔÇéÂÂ¶¼²»Ô¸Òâ×¡ÕâÃ´¹óµÄºÀ»ªË«ÈË¼ä£¬µ«Ô¸Òâ¸ø±ê¼ä¶à¸¶µãÇ®£¬ÄÜ·ñÐ­ÉÌÈë×¡ÄØ£¿  
+¡­¡­  
+ÕâÐ©ÎÊÌâ¾­¹ý³éÏó±ä³ÉÏÂÎÄµÄÄ£ÐÍ£¬»¹¿ÉÒÔ·º»¯£¬±ÈÈç¾ºÅÄÕß¿ÉÒÔÊÇÁ½¸ö¹ú¼Ò£¬ÐÎ³É»ùÓÚ±È½ÏÓÅÊÆµÄÃ³Ò×Ä£Ê½£¬±¨¼Û¿ÉÒÔÊÇÉú²úÂÊ£¬Ò²¿ÉÒÔÊÇ¸ºµÄÉú²úÊ±¼ä¡£  
+¿ÉÒÔÓÃ¸ºµÄ±¨¼Û±íÊ¾ËðÊ§£¬±ÈÈçÔÚÈÎÎñ·ÖÅäÎÊÌâÖÐ£¬¸ºÊý±¨¼Û¿ÉÒÔÊÇÊ±¼äÏûºÄ£¬Ò²¿ÉÒÔÊÇÒªÇó·ÖµÃµÄ½±½ð¡£
 
-å…¶ä¸­ç¬¬1è¡Œ$S_{11},\  S_{12},\  \cdots,\  S_{1n}$å³ç¬¬1ä¸ªäººå¯¹nä¸ªç‰©å“çš„æŠ¥ä»·ã€‚  
-...ä»¥æ­¤ç±»æŽ¨
+ÈôÊÇ¶ÔÀíÂÛ²»¸ÐÐËÈ¤£¬¿ÉÒÔÖ±½ÓÌøµ½ÎÄÄ©[Ò»¸ö¼òµ¥µÄÔÚÏßÊµÏÖ·½·¨](#Ò»¸ö¼òµ¥µÄÔÚÏßÊµÏÖ·½·¨)
 
-å› æ­¤æ¯è¡Œä¹‹å’Œï¼Œå³æ¯ä¸ªäººçš„å¯¹æ‰€æœ‰ç‰©å“çš„æŠ¥ä»·å’Œï¼Œéƒ½ç­‰äºŽåŽŸå§‹nä¸ªç‰©å“çš„æ€»ä»·$P'$
+# ¶àÎïÆ·ÅÄÂô£¨×îÓÅ·ÖÅäËã·¨£©
+¸ÃËã·¨µÄÄ¿µÄÊÇ°Ñ×Ü¼ÛÎª<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/c0e79c1903ae281461a9393c4c3b3021.svg?invert_in_darkmode" align=middle width=16.62673319999999pt height=24.7161288pt/>µÄn¸öÎïÆ·¸üÓÐÐ§µÄ·ÖÅä¸øn¸öÈË£¬ÊµÏÖÐ§ÓÃ×î´ó»¯ÒÔ¼°Ïà¶Ô¹«Æ½µÄ·Ö¼Û¡£
+## ÀíÂÛ²½Öè
+### ·â±Õ±¨¼Û
+n¸ö¾ºÅÄÕß·â±Õ±¨¼Û£¬¸ø³ö×Ô¼º¶Ôn¸öÎïÆ·µÄ±¨¼Û£¬·´Ó³n¸öÎïÆ·¶Ô**×Ô¼º**µÄÐ§ÓÃ£¨²¢²»ÊÇ¡°ÈÏÎªËûÈËÓ¦Îª¸ÃÎïÆ·¸¶¶àÉÙÇ®¡±£¬¶øÊÇ**×Ô¼º**Ô¸ÒâÎªµ¥¶À¹ºÂò´ËÎïÆ·Ëù¸¶µÄ¼Û¸ñ£¬ÓëËûÈËÎÞ¹Ø£©£¬ÐÎ³É±¨¼Û¾ØÕó<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/dab9b7f48541e38f88b599bc81639aba.svg?invert_in_darkmode" align=middle width=20.83533374999999pt height=22.465723500000017pt/>
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/6b2f69a9ddacca88e5b113dd89964b20.svg?invert_in_darkmode" align=middle width=171.4652313pt height=88.76800184999999pt/></p>
 
-## ç‰©å“åˆ†é…
-(è™šæ‹Ÿ)å–å®¶å°†æŒ‘é€‰å‡ºæœ€ä¼˜æŠ¥ä»·ç»„åˆ$(S_{i_{1}1},S_{i_{2}2},...,S_{i_{n}n})$ï¼Œä½¿æŠ¥ä»·ç»„åˆçš„æ€»ä»·æ ¼$P = S_{i_{1}1}+S_{i_{2}2}+...+S_{i_{n}n}$æœ€é«˜  
-å…¶ä¸­$i_1,i_2,...,i_n$ä»£è¡¨çŸ©é˜µä¸­äº’ä¸ç›¸åŒçš„nè¡Œï¼Œå³nä¸ªä¸ä¸€æ ·çš„äºº  
-ç‰©å“1å°†åˆ†é…ç»™ç¬¬$i_1$ä¸ªäºº  
-ç‰©å“2å°†åˆ†é…ç»™ç¬¬$i_2$ä¸ªäºº  
-......ä»¥æ­¤ç±»æŽ¨  
+ÆäÖÐµÚ1ÐÐ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/0e7d734ea7ea05e0e8d92a9c56a2269f.svg?invert_in_darkmode" align=middle width=135.78563624999998pt height=22.465723500000017pt/>¼´µÚ1¸öÈË¶Ôn¸öÎïÆ·µÄ±¨¼Û¡£  
+...ÒÔ´ËÀàÍÆ
 
-## å®žé™…æ”¯å‡º
-nä¸ªç‰©å“åŽŸæœ¬çš„æ€»ä»·æ˜¯å›ºå®šçš„$P'$ï¼ˆæ¯”æ–¹è¯´ä¸€ä¸ªåŒ…å«å¯ä¹ã€é¸¡ç¿…ã€è–¯æ¡ã€æ±‰å ¡çš„å¥—é¤æ€»ä»·ä¸º30å…ƒï¼‰  
-æ˜¾ç„¶ï¼Œæ‹å–åŽå–å®¶æŒ‘é€‰çš„æœ€ä¼˜æŠ¥ä»·ç»„åˆçš„æ€»ä»·æ ¼ $P\ge P'$ï¼ˆä»…åœ¨æ‰€æœ‰äººæŠ¥ä»·å®Œå…¨ä¸€è‡´æ—¶å–ç­‰ï¼‰
+Òò´ËÃ¿ÐÐÖ®ºÍ£¬¼´Ã¿¸öÈËµÄ¶ÔËùÓÐÎïÆ·µÄ±¨¼ÛºÍ£¬¶¼µÈÓÚÔ­Ê¼n¸öÎïÆ·µÄ×Ü¼Û<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/c0e79c1903ae281461a9393c4c3b3021.svg?invert_in_darkmode" align=middle width=16.62673319999999pt height=24.7161288pt/>
 
-ç”±äºŽæœ¬æ–¹æ¡ˆçš„ç›®çš„æ˜¯æ›´å¥½çš„åˆ†é…ç‰©å“ï¼Œæ‹å–çš„å–å®¶æ˜¯è™šæ‹Ÿçš„ï¼Œæ— é¡»ç›ˆåˆ©ã€‚æ‰€ä»¥æˆ‘ä»¬è¦**è°ƒæ•´å®žé™…æ”¯å‡º**ï¼Œä½¿å¾—æ‰€æœ‰äººçš„å®žé™…æ”¯å‡ºå’Œç­‰äºŽç‰©å“çš„åŽŸå§‹æ€»ä»·ã€‚
+### ÎïÆ··ÖÅä
+(ÐéÄâ)Âô¼Ò½«ÌôÑ¡³ö×îÓÅ±¨¼Û×éºÏ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/207d572cd221ca87e47f5f117f2213a6.svg?invert_in_darkmode" align=middle width=137.18360864999997pt height=24.65753399999998pt/>£¬Ê¹±¨¼Û×éºÏµÄ×Ü¼Û¸ñ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/350efd48f7f10d8b1453a434c935fec1.svg?invert_in_darkmode" align=middle width=196.68660659999998pt height=22.465723500000017pt/>×î¸ß  
+ÆäÖÐ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/3bf666e5de563cb17e8c51e17ac9d52a.svg?invert_in_darkmode" align=middle width=75.48094289999999pt height=21.68300969999999pt/>´ú±í¾ØÕóÖÐ»¥²»ÏàÍ¬µÄnÐÐ£¬¼´n¸ö²»Ò»ÑùµÄÈË  
+ÎïÆ·1½«·ÖÅä¸øµÚ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/47052b496001b26f18651237c317563f.svg?invert_in_darkmode" align=middle width=12.21577334999999pt height=21.68300969999999pt/>¸öÈË  
+ÎïÆ·2½«·ÖÅä¸øµÚ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/d1d06b56596ac0b076c455596b357d7d.svg?invert_in_darkmode" align=middle width=12.21577334999999pt height=21.68300969999999pt/>¸öÈË  
+......ÒÔ´ËÀàÍÆ  
 
-æ­¤å¤„ç»™å‡ºä¸¤ç§æ–¹æ³•ï¼Œç¬¬ä¸€ç§ç†Ÿæ‚‰çš„**Normalizeæ­£åˆ™åŒ–**åŸºäºŽæ•ˆç”¨çš„æ¯”ä¾‹å·®å¼‚ï¼Œç¬¬äºŒç§**å‡åŒ€è¿”çŽ°**åŸºäºŽæ•ˆç”¨çš„ç»å¯¹å€¼å·®å¼‚ï¼Œç»å¯¹å€¼å·®å¼‚åœ¨æ•°å­¦ä¸Šä¼šæ›´ä¸¥è°¨ã€‚ä½†ä¸¥è°¨ç¨‹åº¦éƒ½å–å†³äºŽç«žæ‹äººåœ¨æŠ¥ä»·åæ˜ è‡ªèº«æ•ˆç”¨æ—¶çš„æƒ³æ³•ã€‚
+### Êµ¼ÊÖ§³ö
+n¸öÎïÆ·Ô­±¾µÄ×Ü¼ÛÊÇ¹Ì¶¨µÄ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/c0e79c1903ae281461a9393c4c3b3021.svg?invert_in_darkmode" align=middle width=16.62673319999999pt height=24.7161288pt/>£¨±È·½ËµÒ»¸ö°üº¬¿ÉÀÖ¡¢¼¦³á¡¢ÊíÌõ¡¢ºº±¤µÄÌ×²Í×Ü¼ÛÎª30Ôª£©  
+ÏÔÈ»£¬ÅÄÂôºóÂô¼ÒÌôÑ¡µÄ×îÓÅ±¨¼Û×éºÏµÄ×Ü¼Û¸ñ <img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/b3868eb61a1bb775c0ac6fdbfb3e7981.svg?invert_in_darkmode" align=middle width=51.38113694999999pt height=24.7161288pt/>£¨½öÔÚËùÓÐÈË±¨¼ÛÍêÈ«Ò»ÖÂÊ±È¡µÈ£©
 
-### Normalizeæ­£åˆ™åŒ–
-å·²çŸ¥$P$ä¸ºæœ€ä¼˜æŠ¥ä»·ç»„åˆçš„æ€»ä»·æ ¼ï¼Œ$P'$ä¸ºnä¸ªç‰©å“åŽŸå§‹ä»·æ ¼æ€»é¢ã€‚åˆ™è®¾æ­£åˆ™é¡¹
-$$||N|| = \frac{P}{P'}$$
+ÓÉÓÚ±¾·½°¸µÄÄ¿µÄÊÇ¸üºÃµÄ·ÖÅäÎïÆ·£¬ÅÄÂôµÄÂô¼ÒÊÇÐéÄâµÄ£¬ÎÞÐëÓ¯Àû¡£ËùÒÔÎÒÃÇÒª**µ÷ÕûÊµ¼ÊÖ§³ö**£¬Ê¹µÃËùÓÐÈËµÄÊµ¼ÊÖ§³öºÍµÈÓÚÎïÆ·µÄÔ­Ê¼×Ü¼Û¡£
 
-è®¾ç¬¬iä¸ªäººåœ¨æœ€ä¼˜ç»„åˆä¸­è¢«åˆ†é…åˆ°äº†ç‰©å“jï¼Œ
-åˆ™æ¯ä¸ªäººè°ƒæ•´åŽçš„å®žé™…æ”¯å‡ºä¸º
-$$S'_{ij}=\frac{S_{ij}}{||N||}=\frac{S_{ij}P'}{P}$$
+´Ë´¦¸ø³öÁ½ÖÖ·½·¨£¬µÚÒ»ÖÖÊìÏ¤µÄ**NormalizeÕýÔò»¯**»ùÓÚÐ§ÓÃµÄ±ÈÀý²îÒì£¬µÚ¶þÖÖ**¾ùÔÈ·µÏÖ**»ùÓÚÐ§ÓÃµÄ¾ø¶ÔÖµ²îÒì£¬¾ø¶ÔÖµ²îÒìÔÚÊýÑ§ÉÏ»á¸üÑÏ½÷¡£µ«ÑÏ½÷³Ì¶È¶¼È¡¾öÓÚ¾ºÅÄÈËÔÚ±¨¼Û·´Ó³×ÔÉíÐ§ÓÃÊ±µÄÏë·¨¡£
+
+#### NormalizeÕýÔò»¯
+ÒÑÖª<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/df5a289587a2f0247a5b97c1e8ac58ca.svg?invert_in_darkmode" align=middle width=12.83677559999999pt height=22.465723500000017pt/>Îª×îÓÅ±¨¼Û×éºÏµÄ×Ü¼Û¸ñ£¬<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/c0e79c1903ae281461a9393c4c3b3021.svg?invert_in_darkmode" align=middle width=16.62673319999999pt height=24.7161288pt/>Îªn¸öÎïÆ·Ô­Ê¼¼Û¸ñ×Ü¶î¡£ÔòÉèÕýÔòÏî
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/6848a6244a704b6b1a4310b7ed828c82.svg?invert_in_darkmode" align=middle width=74.60374019999999pt height=33.62942055pt/></p>
+
+ÉèµÚi¸öÈËÔÚ×îÓÅ×éºÏÖÐ±»·ÖÅäµ½ÁËÎïÆ·j£¬
+ÔòÃ¿¸öÈËµ÷ÕûºóµÄÊµ¼ÊÖ§³öÎª
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/d82e2a87f17bc708c8b3d6e7ad7107a8.svg?invert_in_darkmode" align=middle width=143.78094225pt height=38.864210549999996pt/></p>
 
 
-### å‡åŒ€è¿”çŽ°
-è™šæ‹Ÿå–å®¶æŠŠè¶…é¢åˆ©æ¶¦$P-P'$å‡åˆ†ç»™æ‰€æœ‰nä¸ªç«žæ‹è€…ï¼Œå³
-$$S'_{ij}=S_{ij} - \frac{P-P'}{n}$$
+#### ¾ùÔÈ·µÏÖ
+ÐéÄâÂô¼Ò°Ñ³¬¶îÀûÈó<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/b9867cda17caabfbfa0bb09e34ca4bae.svg?invert_in_darkmode" align=middle width=49.55469749999998pt height=24.7161288pt/>¾ù·Ö¸øËùÓÐn¸ö¾ºÅÄÕß£¬¼´
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/4188dc9149b6a2a03be57b9330f8f15a.svg?invert_in_darkmode" align=middle width=137.67243765pt height=34.75462155pt/></p>
 
-## æœ€ç»ˆæ•ˆæžœ
-å¯ä»¥çœ‹å‡ºï¼Œæ¯ä¸ªäººçš„å®žé™…æ”¯å‡º$S'$éƒ½å°†å°äºŽä»–å¯¹è¯¥ç‰©å“çš„åŽŸæŠ¥ä»·$S$ã€‚å› æ­¤å¯ä»¥çœ‹å‡ºï¼Œç»è¿‡ç»„åˆå›¢è´­/æ‹å–äº¤æ˜“åŽï¼Œæ¯ä¸ªäººèŽ·å¾—çš„æ•ˆç”¨å¢žåŠ äº†ã€‚
-## æ•°å­¦è¯æ˜Ž
-å‡è®¾æ•ˆç”¨å¯ä»¥ç”¨è´§å¸æ¥è¡¡é‡ã€‚
-è®¾ç¬¬jä¸ªç‰©å“ç»™ç¬¬iä¸ªäººå¸¦æ¥çš„æ•ˆç”¨ï¼ˆUtilityï¼‰ä¸º$U_{ij}$ï¼ŒæŠ¥ä»·ä¸º$S_{ij}$ï¼Œé‚£ä¹ˆå‡å¦‚æŠ¥ä»·å³ä¸ºæ­¤äººè´­ä¹°è¯¥ç‰©å“çš„æ”¯å‡ºï¼Œåˆ™è´­ä¹°ç‰©å“jç»™ç¬¬iä¸ªäººå¸¦æ¥çš„æ”¶ç›Šä¸º
-$$profit_{ij} = U_{ij} - S_{ij} \qquad (1)$$
+### ×îÖÕÐ§¹û
+ÏÔÈ»£¬Ã¿¸öÈËµÄÊµ¼ÊÖ§³ö<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/9df9cc8c13822e8722019b07dff39ebc.svg?invert_in_darkmode" align=middle width=14.81734484999999pt height=24.7161288pt/>¶¼½«Ð¡ÓÚËû¶Ô¸ÃÎïÆ·µÄÔ­±¨¼Û<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/e257acd1ccbe7fcb654708f1a866bfe9.svg?invert_in_darkmode" align=middle width=11.027402099999989pt height=22.465723500000017pt/>¡£Òò´Ë£¬¾­¹ý×éºÏÍÅ¹º&ÅÄÂô½»Ò×ºó£¬Ã¿¸öÈË»ñµÃµÄÐ§ÓÃÔö¼ÓÁË¡£
+## ÊýÑ§Ö¤Ã÷
+¼ÙÉèÐ§ÓÃ¿ÉÒÔÓÃ»õ±ÒÀ´ºâÁ¿¡£
+ÉèµÚj¸öÎïÆ·¸øµÚi¸öÈË´øÀ´µÄÐ§ÓÃ£¨Utility£©Îª<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/91d79fc058413bff469d160f74946464.svg?invert_in_darkmode" align=middle width=21.979146749999988pt height=22.465723500000017pt/>£¬±¨¼ÛÎª<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/dab9b7f48541e38f88b599bc81639aba.svg?invert_in_darkmode" align=middle width=20.83533374999999pt height=22.465723500000017pt/>£¬ÄÇÃ´¼ÙÈç±¨¼Û¼´Îª´ËÈË¹ºÂò¸ÃÎïÆ·µÄÖ§³ö£¬Ôò¹ºÂòÎïÆ·j¸øµÚi¸öÈË´øÀ´µÄÊÕÒæÎª
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/d91195d5c17a330500c1871393a93329.svg?invert_in_darkmode" align=middle width=197.45404634999997pt height=17.031940199999998pt/></p>
 
-å‡è®¾ä»»ä½•ä¸€ä¸ªç«žæ‹è€…ï¼Œå¯¹æ‰€æœ‰ç‰©å“çš„æŠ¥ä»·éƒ½çœŸå®žåæ˜ äº†è¯¥ç‰©å“å¯¹è‡ªå·±çš„æ•ˆç”¨ï¼Œåˆ™æ‰€æœ‰ç‰©å“ç»™è¯¥ç«žæ‹è€…å¸¦æ¥çš„æ”¶ç›Šéƒ½ç›¸ç­‰ã€‚å³
-$$
-profit_{i1}=profit_{i2}=\cdots=profit_{in}
-$$
+¼ÙÉèÈÎºÎÒ»¸ö¾ºÅÄÕß£¬¶ÔËùÓÐÎïÆ·µÄ±¨¼Û¶¼ÕæÊµ·´Ó³ÁË¸ÃÎïÆ·¶Ô×Ô¼ºµÄÐ§ÓÃ£¬ÔòËùÓÐÎïÆ·¸ø¸Ã¾ºÅÄÕß´øÀ´µÄÊÕÒæ¶¼ÏàµÈ¡£¼´
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/a9182560b2ceccddad6845f937e66266.svg?invert_in_darkmode" align=middle width=258.34341059999997pt height=14.611878599999999pt/></p>
 
-è®°ä¸º$profit_{i}$ã€‚
+¼ÇÎª<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/2dad7b36055f507dc73d7967cbebba34.svg?invert_in_darkmode" align=middle width=50.17920929999999pt height=22.831056599999986pt/>¡£
 
-å› ç«žæ‹è€…å¯¹nä¸ªç‰©å“æŠ¥ä»·ä¹‹å’Œä¸ºåŽŸæœ¬çš„æ€»ä»·$P'$æ˜¯å›ºå®šçš„ï¼Œæ˜“å¾—
-$$profit_{i} = \frac{\sum^n_{j=1} (U_{ij} - S_{ij})}n
-=\frac{\sum^n_{j=1} U_{ij} -P'}n \qquad (3)$$
-åˆç”±å¼(1)å¯å¾—
-$$S_{ij} = U_{ij} - profit_{i} \qquad (2)$$
+Òò¾ºÅÄÕß¶Ôn¸öÎïÆ·±¨¼ÛÖ®ºÍÎªÔ­±¾µÄ×Ü¼Û<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/c0e79c1903ae281461a9393c4c3b3021.svg?invert_in_darkmode" align=middle width=16.62673319999999pt height=24.7161288pt/>ÊÇ¹Ì¶¨µÄ£¬Ò×µÃ
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/e4a697f57fee854080c9ec330f098226.svg?invert_in_darkmode" align=middle width=378.8674263pt height=38.07505515pt/></p>
+ÓÖÓÉÊ½(1)¿ÉµÃ
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/2a63a1ee59f529839317890b162dd8b7.svg?invert_in_darkmode" align=middle width=191.34956115pt height=17.031940199999998pt/></p>
+´ËÊ½ËµÃ÷£¬ÓÉÓÚ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/2dad7b36055f507dc73d7967cbebba34.svg?invert_in_darkmode" align=middle width=50.17920929999999pt height=22.831056599999986pt/>¶ÔµÚi¸öÈËÊÇ¹Ì¶¨µÄ³£Êý£¬ÄÇÃ´Ëû¶Ô²»Í¬ÎïÆ·µÄ**±¨¼Û**µÄ**¾ø¶ÔÖµ²îÒì**£¬ºÍ²»Í¬ÎïÆ·¸øËû´øÀ´µÄ**Ð§ÓÃ**µÄ**¾ø¶ÔÖµ²îÒì**£¬ÊÇÏàµÈµÄ¡£
+### ×ÜÐ§ÓÃ×î´ó»¯
+ÒÔÏÂ¸ø³öÁ½ÖÖË¼Â·£¬Ö¤Ã÷¸Ã·ÖÅä·½°¸ÄÜÊ¹ËùÓÐÈËµÃµ½µÄ×ÜÐ§ÓÃ×î´ó»¯¡££¨×ÔÈ»Ò²ÊÇÅÁÀÛÍÐ×îÓÅ£©
 
-### æ€»æ•ˆç”¨æœ€å¤§åŒ–
-ä»¥ä¸‹ç»™å‡ºä¸¤ç§æ€è·¯ï¼Œè¯æ˜Žè¯¥åˆ†é…æ–¹æ¡ˆèƒ½ä½¿æ‰€æœ‰äººå¾—åˆ°çš„æ€»æ•ˆç”¨æœ€å¤§åŒ–ã€‚ï¼ˆè‡ªç„¶ä¹Ÿæ˜¯å¸•ç´¯æ‰˜æœ€ä¼˜ï¼‰
+#### Ö¤Ã÷1£º
 
-#### è¯æ˜Ž1ï¼š
+ÒÑÖª±¨¼Û×éºÏµÄ×Ü¼Û¸ñÎª
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/bad5a0937f37cb32538384d2f41b7b89.svg?invert_in_darkmode" align=middle width=272.88659475pt height=47.1348339pt/></p>
 
-å·²çŸ¥æŠ¥ä»·ç»„åˆçš„æ€»ä»·æ ¼ä¸º
-$$P = S_{i_{1}1}+S_{i_{2}2}+...+S_{i_{n}n}=\sum^n_{j=1}S_{i_{j}j}$$
+ÆäÖÐ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/2c0c126fa01c5e5dfc5b1faa7b319032.svg?invert_in_darkmode" align=middle width=89.08829159999999pt height=24.65753399999998pt/>ÊÇ1µ½nµÄÒ»¸öÅÅÁÐ£¬±íÊ¾µÚ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/36b5afebdba34564d884d347484ac0c7.svg?invert_in_darkmode" align=middle width=7.710416999999989pt height=21.68300969999999pt/>¸öÎïÆ··ÖÅä¸ø<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/b60fd85f5e6f4ba2e90e7a46b0e8d2d9.svg?invert_in_darkmode" align=middle width=11.767735649999992pt height=21.68300969999999pt/>¡£
 
-å…¶ä¸­$(i_1,i_2,...,i_n)$æ˜¯1åˆ°nçš„ä¸€ä¸ªæŽ’åˆ—ï¼Œè¡¨ç¤ºç¬¬$j$ä¸ªç‰©å“åˆ†é…ç»™$i_j$ã€‚
+ÓÖÓÉÊ½(2)¿ÉµÃ
+<p align="center"><img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/faed57ff824d13fea413b095070fae65.svg?invert_in_darkmode" align=middle width=351.55793639999996pt height=47.1348339pt/></p>
 
-åˆç”±å¼(2)å¯å¾—
-$$P = \sum^n_{j=1}(U_{i_{j}j}-profit_{i_j})=\sum^n_{j=1}U_{i_{j}j}-\sum^n_{i=1}profit_{i}$$
+ÓÖÓÉÊ½(3)¿ÉÖª£¬<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/2dad7b36055f507dc73d7967cbebba34.svg?invert_in_darkmode" align=middle width=50.17920929999999pt height=22.831056599999986pt/>ÔÚ·ÖÅäÇ°ÒÑ¾­ÊÇ¹Ì¶¨µÄÁË£¬<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/84f188adbf31f077676f85971953e424.svg?invert_in_darkmode" align=middle width=92.38722734999999pt height=26.438629799999987pt/>ÊÇÒ»¸ö³£Êý£¬¶ø<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/adbe2b0427e1bbadee00a9673927e1d9.svg?invert_in_darkmode" align=middle width=71.78190194999999pt height=26.438629799999987pt/>¾ÍÊÇËùÓÐÎïÆ··ÖÅäºó¸øËùÓÐÈË´øÀ´µÄ×ÜÐ§ÓÃ¡£ËùÒÔ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/ee3a85572cf014a7dec77da2ca6b9d0c.svg?invert_in_darkmode" align=middle width=47.53983629999998pt height=22.465723500000017pt/>¡£
 
-åˆç”±å¼(3)å¯çŸ¥ï¼Œ$profit_{i}$åœ¨åˆ†é…å‰å·²ç»æ˜¯å›ºå®šçš„äº†ï¼Œ$\sum^n_{i=1}profit_{i}$æ˜¯ä¸€ä¸ªå¸¸æ•°ï¼Œè€Œ$\sum^n_{j=1}U_{i_{j}j}$å°±æ˜¯æ‰€æœ‰ç‰©å“åˆ†é…åŽç»™æ‰€æœ‰äººå¸¦æ¥çš„æ€»æ•ˆç”¨ã€‚æ‰€ä»¥$P=æ€»æ•ˆç”¨-å¸¸æ•°$ã€‚
+Òò´Ë×îÓÅ±¨¼Û×éºÏÔÚ×î´ó»¯±¨¼Û×éºÏµÄ×Ü¶î<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/df5a289587a2f0247a5b97c1e8ac58ca.svg?invert_in_darkmode" align=middle width=12.83677559999999pt height=22.465723500000017pt/>µÄÍ¬Ê±£¬Ò²Ê¹µÃ×ÜÐ§ÓÃ×î´ó»¯¡£
 
-å› æ­¤æœ€ä¼˜æŠ¥ä»·ç»„åˆåœ¨æœ€å¤§åŒ–æŠ¥ä»·ç»„åˆçš„æ€»é¢$P$çš„åŒæ—¶ï¼Œä¹Ÿä½¿å¾—æ€»æ•ˆç”¨æœ€å¤§åŒ–ã€‚
+#### Ö¤Ã÷2£º
 
-#### è¯æ˜Ž2ï¼š
+»¹ÓÐÁíÍâÒ»ÖÖÖ¤Ã÷Ë¼Â·£¬×Ü¹²ÓÐ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/50c0357224674ab662b8ea5e5ca3eb8a.svg?invert_in_darkmode" align=middle width=14.433101099999991pt height=22.831056599999986pt/>¸ö**¿ÉÐÐ±¨¼Û×éºÏ**<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/207d572cd221ca87e47f5f117f2213a6.svg?invert_in_darkmode" align=middle width=137.18360864999997pt height=24.65753399999998pt/>£¬ÌÈÈôÃ¿¸öÈËµÄÖ§³öºÍ±¨¼ÛÒ»ÖÂ£¬ÄÇÃ´ÎÞÂÛÔõÑù×éºÏ£¬µÚi¸öÈË»ñµÃµÄÊÕÒæÊ¼ÖÕÊÇ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/165e81a9941eb4296492a4c565e095d9.svg?invert_in_darkmode" align=middle width=50.17920929999999pt height=22.831056599999986pt/>¡£  
+µ«**×îÓÅ±¨¼Û×éºÏ**ÄÜÊ¹±¨¼ÛÖ®ºÍ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/df5a289587a2f0247a5b97c1e8ac58ca.svg?invert_in_darkmode" align=middle width=12.83677559999999pt height=22.465723500000017pt/>×î´ó£¬ÔòÐéÄâÂô¼Ò»ñµÃµÄ¡°³¬¶îÊÕÒæ¡±<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/b9867cda17caabfbfa0bb09e34ca4bae.svg?invert_in_darkmode" align=middle width=49.55469749999998pt height=24.7161288pt/>ÄÜ´ïµ½×î´ó£¬ÐéÄâÂô¼ÒµÄÕâ²¿·ÖÊÕÒæÊÇ»áÈ«¶î·µ»¹¸ø¾ºÅÄÕßµÄ¡£  
+¼ÙÈç°Ñ³¬¶îÊÕÒæ**¾ùÔÈ·µÏÖ**£¬ÔòµÚi¸öÈË×îÖÕ»ñµÃµÄÊµ¼ÊÊÕÒæÎª<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/aa23508f2161c4b51b588d2e28b0230d.svg?invert_in_darkmode" align=middle width=108.06267119999998pt height=31.99855889999998pt/>¡£ËùÓÐÎïÆ·Ô­Ê¼¼Û¸ñ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/c0e79c1903ae281461a9393c4c3b3021.svg?invert_in_darkmode" align=middle width=16.62673319999999pt height=24.7161288pt/>²»±ä£¬Ôò±¨¼Û×éºÏµÄ×Ü¶î<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/df5a289587a2f0247a5b97c1e8ac58ca.svg?invert_in_darkmode" align=middle width=12.83677559999999pt height=22.465723500000017pt/>Ô½´ó£¬Ã¿¸öÈËµÃµ½µÄÊÕÒæÔ½´ó¡£
 
-è¿˜æœ‰å¦å¤–ä¸€ç§æ€è·¯è¯æ˜Žï¼Œæ€»å…±æœ‰$n!$ä¸ª**å¯è¡ŒæŠ¥ä»·ç»„åˆ**$(S_{i_{1}1},S_{i_{2}2},...,S_{i_{n}n})$ï¼Œå€˜è‹¥æ¯ä¸ªäººçš„æ”¯å‡ºå’ŒæŠ¥ä»·ä¸€è‡´ï¼Œé‚£ä¹ˆæ— è®ºæ€Žæ ·ç»„åˆï¼Œç¬¬iä¸ªäººèŽ·å¾—çš„æ”¶ç›Šå§‹ç»ˆæ˜¯$profit_i$ã€‚  
-ä½†**æœ€ä¼˜æŠ¥ä»·ç»„åˆ**èƒ½ä½¿æŠ¥ä»·ä¹‹å’Œ$P$æœ€å¤§ï¼Œåˆ™è™šæ‹Ÿå–å®¶èŽ·å¾—çš„è¶…é¢æ”¶ç›Š$P-P'$èƒ½è¾¾åˆ°æœ€å¤§ï¼Œè™šæ‹Ÿå–å®¶çš„è¿™éƒ¨åˆ†æ”¶ç›Šæ˜¯ä¼šå…¨é¢è¿”è¿˜ç»™ç«žæ‹è€…çš„ã€‚  
-å‡å¦‚æŠŠè¶…é¢æ”¶ç›Š**å‡åŒ€è¿”çŽ°**ï¼Œåˆ™ç¬¬iä¸ªäººæœ€ç»ˆèŽ·å¾—çš„å®žé™…æ”¶ç›Šä¸º$profit_i + \frac{P-P'}n$ã€‚æ‰€æœ‰ç‰©å“åŽŸå§‹ä»·æ ¼$P'$ä¸å˜ï¼Œåˆ™æŠ¥ä»·ç»„åˆçš„æ€»é¢$P$è¶Šå¤§ï¼Œæ¯ä¸ªäººå¾—åˆ°çš„æ”¶ç›Šè¶Šå¤§ã€‚
 
-# åŸºäºŽgoogle sheet&colabçš„ä¸€ä¸ªç®€å•åœ¨çº¿å®žçŽ°æ–¹æ³•
-step 1:æ¯ä¸ªäººå‡†å¤‡å¥½è‡ªå·±çš„æŠ¥ä»·å†™è¿›è‡ªå·±ç§äººçš„google sheet
+*ÆäÊµ³ýÁËÐ§ÓÃ×î´ó»¯£¬»¹ÓÐÁ½µãÐèÒªÖ¤Ã÷£¬Ò»ÊÇ¾ºÅÄÕßÎªÊ²Ã´»áÑÏ¸ñ¸ù¾ÝÎïÆ·´øÀ´µÄÐ§ÓÃ²îÒìÀ´±¨¼Û£¬¼´´Ó²©ÞÄÂÛµÄ½Ç¶ÈÖ¤Ã÷ÕâÊÇ¾ºÅÄÕßµÄ×îÓÅ²ßÂÔ¡£¶þÊÇÈçºÎµ÷ÕûÊµ¼ÊÖ§³ö£¬¼´ÔõÑù°Ñ¡°³¬¶îÊÕÒæ¡±·µ»¹¸ø¾ºÅÄÕß×îºÏÀí£¨ÎÒ¸öÈËÊÇ¾õµÃnormalizeÔÚÎïÆ·¼Û²î½Ï´óÊ±¸üºÏÀí£©¡£*
 
-step 2:è¿‡3åˆ†é’Ÿï¼Œå¤§å®¶ä¸€èµ·å…¬å¼€è‡ªå·±çš„æŠ¥ä»·sheetçš„åªè¯»sharelinkã€‚ï¼ˆç”±äºŽgoogle sheetçš„ä¿®æ”¹è®°å½•æ˜¯å¯è§çš„ï¼Œå¯éªŒè¯3åˆ†é’Ÿå†…ä¸å­˜åœ¨æŠ¥ä»·å˜åŠ¨ã€‚ï¼‰
+# Reference
+Æð³õ¾ÍÈçÒý×ÓÀïËùÌá£¬ÓÉÓÚ´æÔÚÎïÆ··ÖÅä/·Ö¼ÛÉÏµÄ²»Ò»ÖÂ£¬ÎÒ»ùÓÚ¶ÔÅÄÂôµÄÒ»Ð©³õÇ³ÈÏÊ¶£¬³¢ÊÔ×ÁÄ¥³öÕâÃ´Ò»Ì×·½°¸£¬ËæºóÒâÍâ·¢ÏÖ¿ÉÒÔÊýÑ§ÉÏÖ¤Ã÷ËüÄÜÊ¹Ð§ÓÃ×î´ó»¯¡£
 
-step 3:åœ¨colabé‡Œæ‰“å¼€ç¨‹åºï¼Œè¾“å…¥æŠ¥ä»·å¹¶è¿è¡Œã€‚
+²»¹ýÔÚÎÒÊÔÍ¼Ìá½»µ½githubÊ±£¬ËÑÁËËÑÏÖÓÐµÄrepo£¬·¢ÏÖ¸ÃÎÊÌâ¾­¹ý¼ÙÉè³éÏóºó£¬¾Í³ÉÁË[Assignment Problem](https://en.wikipedia.org/wiki/Assignment_problem)£¬²¢ÓÐ³ÉÊìµÄËã·¨Èç[Hungarian algorithm](https://en.wikipedia.org/wiki/Hungarian_algorithm)ÒÔ<img src="https://rawgit.com/jokerkeny/MultiItem-Auction-Assignment (fetch/master/svgs/90846c243bb784093adbb6d2d0b2b9d0.svg?invert_in_darkmode" align=middle width=43.02219404999999pt height=26.76175259999998pt/>À´Çó½â¸ÃÄ£ÐÍµÄ×îÓÅ»¯ÎÊÌâ¡£
 
-å…¶ä¸­step1 & 2æ˜¯ç”¨äºŽå¯é çš„å°é—­æŠ¥ä»·çš„ï¼Œsharelinkå¾—ä¸€èµ·å…¬å¼€ï¼Œå¦åˆ™å­˜åœ¨äº‹å…ˆå‡†å¤‡å¥½å¤šä¸ªgooglesheetçš„ä½œå¼Šæ¼æ´žã€‚  
-å¦‚æžœåœ¨çŽ°å®žä¸­å½“é¢æŠ¥ä»·ï¼ŒStep 1 & 2å¯ç›´æŽ¥ç”¨çº¸ç¬”å°é—­æŠ¥ä»·ä»£æ›¿ã€‚  
+# Ò»¸ö¼òµ¥µÄÔÚÏßÊµÏÖ·½·¨
+step 1:Ã¿¸öÈË×¼±¸ºÃ×Ô¼ºµÄ±¨¼ÛÐ´½ø×Ô¼ºË½ÈËµÄgoogle sheet
+
+step 2:¹ý3·ÖÖÓ£¬´ó¼ÒÒ»Æð¹«¿ª×Ô¼ºµÄ±¨¼ÛsheetµÄÖ»¶Ásharelink¡££¨ÓÉÓÚgoogle sheetµÄÐÞ¸Ä¼ÇÂ¼ÊÇ¿É¼ûµÄ£¬¿ÉÑéÖ¤3·ÖÖÓÄÚ²»´æÔÚ±¨¼Û±ä¶¯¡££©
+
+step 3:ÔÚcolabÀï´ò¿ª³ÌÐò£¬ÊäÈë±¨¼Û²¢ÔËÐÐ¡£µ±È»Ò²¿ÉÒÔÖ±½ÓÏÂÔØauction.py»òauction.ipynbÔÚ±¾µØÔËÐÐ¡£
+
+ÆäÖÐstep1 & 2ÊÇÓÃÓÚ¿É¿¿µÄ·â±Õ±¨¼ÛµÄ£¬sharelinkµÃÒ»Æð¹«¿ª£¬·ñÔò´æÔÚÊÂÏÈ×¼±¸ºÃ¶à¸ögooglesheetµÄ×÷±×Â©¶´¡£  
+Èç¹ûÃ»·¨Ê¹ÓÃgoogle·þÎñ£¬¿ÉÓÃ¼ÓÃÜµÄexcel´úÌæ£¬Ëæºó¹«¿ªÃÜÂë¡£
+Èç¹ûÔÚÏÖÊµÖÐµ±Ãæ±¨¼Û£¬Step 1 & 2¿ÉÖ±½ÓÓÃÖ½±Ê·â±Õ±¨¼Û´úÌæ¡£  
 
 > Written with [StackEdit](https://stackedit.io/).
+> Convert to github markdown by [readme2tex](https://github.com/leegao/readme2tex)
